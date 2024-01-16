@@ -13,6 +13,12 @@
 		5F1D8B3E2B566A14006B2312 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F1D8B3C2B566A14006B2312 /* Main.storyboard */; };
 		5F1D8B402B566A16006B2312 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F1D8B3F2B566A16006B2312 /* Assets.xcassets */; };
 		5F1D8B432B566A16006B2312 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F1D8B412B566A16006B2312 /* LaunchScreen.storyboard */; };
+		5F1D8B512B566CE9006B2312 /* ProgressWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F1D8B502B566CE9006B2312 /* ProgressWidget.swift */; };
+		5F1D8B542B567057006B2312 /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F1D8B532B567057006B2312 /* Date.swift */; };
+		5F1D8B562B567E20006B2312 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F1D8B552B567E20006B2312 /* UIView.swift */; };
+		5F1D8B582B569858006B2312 /* AdjustableContraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F1D8B572B569858006B2312 /* AdjustableContraints.swift */; };
+		5F1D8B612B56A484006B2312 /* LKAWaveCircleProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F1D8B602B56A484006B2312 /* LKAWaveCircleProgressBar.swift */; };
+		5F1D8B632B56A4CA006B2312 /* WaveLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F1D8B622B56A4CA006B2312 /* WaveLayer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +30,12 @@
 		5F1D8B3F2B566A16006B2312 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5F1D8B422B566A16006B2312 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5F1D8B442B566A16006B2312 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F1D8B502B566CE9006B2312 /* ProgressWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressWidget.swift; sourceTree = "<group>"; };
+		5F1D8B532B567057006B2312 /* Date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
+		5F1D8B552B567E20006B2312 /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+		5F1D8B572B569858006B2312 /* AdjustableContraints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdjustableContraints.swift; sourceTree = "<group>"; };
+		5F1D8B602B56A484006B2312 /* LKAWaveCircleProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LKAWaveCircleProgressBar.swift; sourceTree = "<group>"; };
+		5F1D8B622B56A4CA006B2312 /* WaveLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaveLayer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,8 @@
 		5F1D8B352B566A14006B2312 /* ThisYear */ = {
 			isa = PBXGroup;
 			children = (
+				5F1D8B522B56704B006B2312 /* Extensions */,
+				5F1D8B4D2B566CB5006B2312 /* ProgressWidget */,
 				5F1D8B362B566A14006B2312 /* AppDelegate.swift */,
 				5F1D8B382B566A14006B2312 /* SceneDelegate.swift */,
 				5F1D8B3A2B566A14006B2312 /* ViewController.swift */,
@@ -63,8 +77,44 @@
 				5F1D8B3F2B566A16006B2312 /* Assets.xcassets */,
 				5F1D8B412B566A16006B2312 /* LaunchScreen.storyboard */,
 				5F1D8B442B566A16006B2312 /* Info.plist */,
+				5F1D8B4A2B566A23006B2312 /* View */,
 			);
 			path = ThisYear;
+			sourceTree = "<group>";
+		};
+		5F1D8B4A2B566A23006B2312 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5F1D8B592B56A403006B2312 /* LKAWaveCircleProgressBar */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5F1D8B4D2B566CB5006B2312 /* ProgressWidget */ = {
+			isa = PBXGroup;
+			children = (
+				5F1D8B502B566CE9006B2312 /* ProgressWidget.swift */,
+			);
+			path = ProgressWidget;
+			sourceTree = "<group>";
+		};
+		5F1D8B522B56704B006B2312 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				5F1D8B532B567057006B2312 /* Date.swift */,
+				5F1D8B552B567E20006B2312 /* UIView.swift */,
+				5F1D8B572B569858006B2312 /* AdjustableContraints.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		5F1D8B592B56A403006B2312 /* LKAWaveCircleProgressBar */ = {
+			isa = PBXGroup;
+			children = (
+				5F1D8B602B56A484006B2312 /* LKAWaveCircleProgressBar.swift */,
+				5F1D8B622B56A4CA006B2312 /* WaveLayer.swift */,
+			);
+			path = LKAWaveCircleProgressBar;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,8 +189,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				5F1D8B3B2B566A14006B2312 /* ViewController.swift in Sources */,
+				5F1D8B612B56A484006B2312 /* LKAWaveCircleProgressBar.swift in Sources */,
+				5F1D8B582B569858006B2312 /* AdjustableContraints.swift in Sources */,
+				5F1D8B542B567057006B2312 /* Date.swift in Sources */,
+				5F1D8B512B566CE9006B2312 /* ProgressWidget.swift in Sources */,
+				5F1D8B562B567E20006B2312 /* UIView.swift in Sources */,
 				5F1D8B372B566A14006B2312 /* AppDelegate.swift in Sources */,
 				5F1D8B392B566A14006B2312 /* SceneDelegate.swift in Sources */,
+				5F1D8B632B56A4CA006B2312 /* WaveLayer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

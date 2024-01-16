@@ -1,24 +1,182 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22154" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
-        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22130"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="ThisYear" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="fPL-3O-Lli"/>
+                        <viewControllerLayoutGuide type="bottom" id="hTd-Qd-HSA"/>
+                    </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" xcode11CocoaTouchSystemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg" translatesAutoresizingMaskIntoConstraints="NO" id="Mq6-vh-b6F">
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="N1H-yf-Hv3">
+                                <rect key="frame" x="0.0" y="59" width="393" height="759"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nqa-U9-neb">
+                                        <rect key="frame" x="0.0" y="0.0" width="393" height="257.66666666666669"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MQc-Nl-QYB">
+                                        <rect key="frame" x="15" y="307.66666666666674" width="363" height="451.33333333333326"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="b91-1q-QrY" customClass="ProgressWidget" customModule="ThisYear" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="0.0" width="156.66666666666666" height="156.66666666666666"/>
+                                                <color key="backgroundColor" systemColor="systemPinkColor"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" secondItem="b91-1q-QrY" secondAttribute="height" multiplier="1:1" id="xdr-iY-nLg"/>
+                                                </constraints>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="percentage">
+                                                        <real key="value" value="0.0"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="string" keyPath="subtitle" value="This Hour (4 - 5)"/>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="fontSize">
+                                                        <real key="value" value="20"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="spacing">
+                                                        <real key="value" value="10"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9j2-nK-kfC" customClass="ProgressWidget" customModule="ThisYear" customModuleProvider="target">
+                                                <rect key="frame" x="206.66666666666663" y="93.3333333333333" width="156.33333333333337" height="156.66666666666663"/>
+                                                <color key="backgroundColor" systemColor="systemYellowColor"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="percentage">
+                                                        <real key="value" value="0.0"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="string" keyPath="subtitle" value="This Week (WK#20)"/>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="fontSize">
+                                                        <real key="value" value="20"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="spacing">
+                                                        <real key="value" value="10"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xmN-FB-yCQ" customClass="ProgressWidget" customModule="ThisYear" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="186.66666666666669" width="156.66666666666666" height="156.33333333333331"/>
+                                                <color key="backgroundColor" systemColor="systemGreenColor"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="percentage">
+                                                        <real key="value" value="0.0"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="string" keyPath="subtitle" value="Month (July)"/>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="fontSize">
+                                                        <real key="value" value="20"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="spacing">
+                                                        <real key="value" value="10"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aJy-jw-EnU" customClass="ProgressWidget" customModule="ThisYear" customModuleProvider="target">
+                                                <rect key="frame" x="206.66666666666663" y="279.99999999999994" width="156.33333333333337" height="156.33333333333331"/>
+                                                <color key="backgroundColor" systemColor="systemGrayColor"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="percentage">
+                                                        <real key="value" value="0.0"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="string" keyPath="subtitle" value="Year (2024)"/>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="fontSize">
+                                                        <real key="value" value="20"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="spacing">
+                                                        <real key="value" value="10"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </view>
+                                        </subviews>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstItem="xmN-FB-yCQ" firstAttribute="top" secondItem="9j2-nK-kfC" secondAttribute="centerY" constant="15" id="2kC-h9-iur"/>
+                                            <constraint firstItem="aJy-jw-EnU" firstAttribute="width" secondItem="b91-1q-QrY" secondAttribute="width" id="2kW-wg-sn5"/>
+                                            <constraint firstAttribute="bottom" secondItem="aJy-jw-EnU" secondAttribute="bottom" constant="15" id="CnF-iY-sGq"/>
+                                            <constraint firstItem="9j2-nK-kfC" firstAttribute="height" secondItem="b91-1q-QrY" secondAttribute="height" id="H0J-gc-2xa"/>
+                                            <constraint firstItem="9j2-nK-kfC" firstAttribute="leading" secondItem="b91-1q-QrY" secondAttribute="trailing" constant="50" id="HP5-Ly-Aae"/>
+                                            <constraint firstAttribute="trailing" secondItem="9j2-nK-kfC" secondAttribute="trailing" id="J0L-bZ-Dhe"/>
+                                            <constraint firstItem="aJy-jw-EnU" firstAttribute="height" secondItem="b91-1q-QrY" secondAttribute="height" id="TIA-OY-7BJ"/>
+                                            <constraint firstItem="xmN-FB-yCQ" firstAttribute="height" secondItem="b91-1q-QrY" secondAttribute="height" id="Tew-aI-o19"/>
+                                            <constraint firstItem="aJy-jw-EnU" firstAttribute="top" secondItem="xmN-FB-yCQ" secondAttribute="centerY" constant="15" id="Ufv-1M-cUh"/>
+                                            <constraint firstItem="9j2-nK-kfC" firstAttribute="width" secondItem="b91-1q-QrY" secondAttribute="width" id="Vwq-EU-8TR"/>
+                                            <constraint firstAttribute="trailing" secondItem="aJy-jw-EnU" secondAttribute="trailing" id="da7-pE-pSL"/>
+                                            <constraint firstItem="xmN-FB-yCQ" firstAttribute="leading" secondItem="MQc-Nl-QYB" secondAttribute="leading" id="eCz-mu-cED"/>
+                                            <constraint firstItem="xmN-FB-yCQ" firstAttribute="width" secondItem="b91-1q-QrY" secondAttribute="width" id="jWf-OD-YjJ"/>
+                                            <constraint firstItem="b91-1q-QrY" firstAttribute="leading" secondItem="MQc-Nl-QYB" secondAttribute="leading" id="oV1-ZZ-Gir"/>
+                                            <constraint firstItem="b91-1q-QrY" firstAttribute="top" secondItem="MQc-Nl-QYB" secondAttribute="top" id="yBP-5o-z7B"/>
+                                            <constraint firstItem="9j2-nK-kfC" firstAttribute="top" secondItem="b91-1q-QrY" secondAttribute="centerY" constant="15" id="yQM-p5-hkn"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="nqa-U9-neb" firstAttribute="top" secondItem="N1H-yf-Hv3" secondAttribute="top" id="1Va-tN-n1p"/>
+                                    <constraint firstItem="MQc-Nl-QYB" firstAttribute="top" secondItem="nqa-U9-neb" secondAttribute="bottom" constant="50" id="Bb0-Eb-EB6"/>
+                                    <constraint firstAttribute="trailing" secondItem="MQc-Nl-QYB" secondAttribute="trailing" constant="15" id="RHb-db-5gG"/>
+                                    <constraint firstAttribute="bottom" secondItem="MQc-Nl-QYB" secondAttribute="bottom" id="TIE-4d-eXi"/>
+                                    <constraint firstItem="MQc-Nl-QYB" firstAttribute="leading" secondItem="N1H-yf-Hv3" secondAttribute="leading" constant="15" id="cKT-O0-18C"/>
+                                    <constraint firstItem="nqa-U9-neb" firstAttribute="leading" secondItem="N1H-yf-Hv3" secondAttribute="leading" id="hY8-C0-wDd"/>
+                                    <constraint firstAttribute="trailing" secondItem="nqa-U9-neb" secondAttribute="trailing" id="r2k-bv-aGL"/>
+                                    <constraint firstItem="MQc-Nl-QYB" firstAttribute="centerX" secondItem="N1H-yf-Hv3" secondAttribute="centerX" id="xdE-EV-8ZY"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="N1H-yf-Hv3" firstAttribute="top" secondItem="fPL-3O-Lli" secondAttribute="bottom" id="3j2-MQ-dOx"/>
+                            <constraint firstAttribute="trailing" secondItem="Mq6-vh-b6F" secondAttribute="trailing" id="Bl8-AS-jyh"/>
+                            <constraint firstItem="Mq6-vh-b6F" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="NlW-PA-jMZ"/>
+                            <constraint firstItem="hTd-Qd-HSA" firstAttribute="top" secondItem="N1H-yf-Hv3" secondAttribute="bottom" id="al0-Z3-MrE"/>
+                            <constraint firstItem="Mq6-vh-b6F" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="eKq-Jr-GU3"/>
+                            <constraint firstAttribute="trailing" secondItem="N1H-yf-Hv3" secondAttribute="trailing" id="jxQ-j7-2kK"/>
+                            <constraint firstAttribute="bottom" secondItem="Mq6-vh-b6F" secondAttribute="bottom" id="nXk-Ja-MbQ"/>
+                            <constraint firstItem="N1H-yf-Hv3" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="vfy-pn-YKc"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="dateLabel" destination="nqa-U9-neb" id="R1J-8f-5I8"/>
+                        <outlet property="hourProgress" destination="b91-1q-QrY" id="NYT-fg-s2R"/>
+                        <outlet property="monthProgress" destination="xmN-FB-yCQ" id="Hdx-9l-DUP"/>
+                        <outlet property="weekProgress" destination="9j2-nK-kfC" id="F0e-yX-WFI"/>
+                        <outlet property="yearProgress" destination="aJy-jw-EnU" id="u8m-1o-gaB"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="86.25954198473282" y="-48.591549295774648"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="bg" width="827" height="1255"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGrayColor">
+            <color red="0.5568627451" green="0.5568627451" blue="0.57647058819999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemGreenColor">
+            <color red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemPinkColor">
+            <color red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemYellowColor">
+            <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
 </document>

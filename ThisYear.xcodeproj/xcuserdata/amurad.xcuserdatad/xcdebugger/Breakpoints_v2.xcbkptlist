@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "62103D4D-3C2D-4777-B054-5ED47FC2ECE9"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C3BECA72-6C62-41B1-8635-AE072C571E8E"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ThisYear/ProgressWidget/ProgressWidget.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "84"
+            endingLineNumber = "84"
+            landmarkName = "nibSetup()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "C3BECA72-6C62-41B1-8635-AE072C571E8E - e4fba1bbd373109a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in ThisYear.ProgressWidget.nibSetup() -&gt; ()"
+                  moduleName = "ThisYear"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/amurad/Desktop/ThisYear/ThisYear/ProgressWidget/ProgressWidget.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "64"
+                  endingLineNumber = "64"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "C3BECA72-6C62-41B1-8635-AE072C571E8E - e4fba1bbd37310bb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in ThisYear.ProgressWidget.nibSetup() -&gt; ()"
+                  moduleName = "ThisYear"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/amurad/Desktop/ThisYear/ThisYear/ProgressWidget/ProgressWidget.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "65"
+                  endingLineNumber = "65"
+                  offsetFromSymbolStart = "0">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "AF445841-A7E3-450C-B14B-FDF8274D38DE"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ThisYear/ProgressWidget/ProgressWidget.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "85"
+            endingLineNumber = "85"
+            landmarkName = "nibSetup()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "AF445841-A7E3-450C-B14B-FDF8274D38DE - f19f18f599708c75"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ThisYear.ProgressWidget.nibSetup() -&gt; ()"
+                  moduleName = "ThisYear"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/amurad/Desktop/ThisYear/ThisYear/ProgressWidget/ProgressWidget.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "65"
+                  endingLineNumber = "65"
+                  offsetFromSymbolStart = "3680">
+               </Location>
+               <Location
+                  uuid = "AF445841-A7E3-450C-B14B-FDF8274D38DE - e4fba1bbd37310bb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in ThisYear.ProgressWidget.nibSetup() -&gt; ()"
+                  moduleName = "ThisYear"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/amurad/Desktop/ThisYear/ThisYear/ProgressWidget/ProgressWidget.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "65"
+                  endingLineNumber = "65"
+                  offsetFromSymbolStart = "0">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E9CA65BF-8152-4E46-AFAB-C3DC6E98C71C"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ThisYear/ProgressWidget/ProgressWidget.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "86"
+            endingLineNumber = "86"
+            landmarkName = "ProgressWidget"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "E9CA65BF-8152-4E46-AFAB-C3DC6E98C71C - f19f18f599708c16"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ThisYear.ProgressWidget.nibSetup() -&gt; ()"
+                  moduleName = "ThisYear"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/amurad/Desktop/ThisYear/ThisYear/ProgressWidget/ProgressWidget.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "66"
+                  endingLineNumber = "66"
+                  offsetFromSymbolStart = "3076">
+               </Location>
+               <Location
+                  uuid = "E9CA65BF-8152-4E46-AFAB-C3DC6E98C71C - f19f18f599708c16"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ThisYear.ProgressWidget.nibSetup() -&gt; ()"
+                  moduleName = "ThisYear"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/amurad/Desktop/ThisYear/ThisYear/ProgressWidget/ProgressWidget.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "66"
+                  endingLineNumber = "66"
+                  offsetFromSymbolStart = "2844">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DE7C470B-D0FC-4652-A714-167E9D4544B4"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ThisYear/ProgressWidget/ProgressWidget.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "83"
+            endingLineNumber = "83"
+            landmarkName = "nibSetup()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "DE7C470B-D0FC-4652-A714-167E9D4544B4 - e4fba1bbd373109a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in ThisYear.ProgressWidget.nibSetup() -&gt; ()"
+                  moduleName = "ThisYear"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/amurad/Desktop/ThisYear/ThisYear/ProgressWidget/ProgressWidget.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "64"
+                  endingLineNumber = "64"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "DE7C470B-D0FC-4652-A714-167E9D4544B4 - f19f18f599708cbb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ThisYear.ProgressWidget.nibSetup() -&gt; ()"
+                  moduleName = "ThisYear"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/amurad/Desktop/ThisYear/ThisYear/ProgressWidget/ProgressWidget.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "63"
+                  endingLineNumber = "63"
+                  offsetFromSymbolStart = "2884">
+               </Location>
+               <Location
+                  uuid = "DE7C470B-D0FC-4652-A714-167E9D4544B4 - f19f18f599708cbb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ThisYear.ProgressWidget.nibSetup() -&gt; ()"
+                  moduleName = "ThisYear"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/amurad/Desktop/ThisYear/ThisYear/ProgressWidget/ProgressWidget.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "63"
+                  endingLineNumber = "63"
+                  offsetFromSymbolStart = "2652">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "25784453-02EF-4057-AA6A-9879A0C78524"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ThisYear/ProgressWidget/ProgressWidget.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "80"
+            endingLineNumber = "80"
+            landmarkName = "nibSetup()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "25784453-02EF-4057-AA6A-9879A0C78524 - f19f18f599708cd8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ThisYear.ProgressWidget.nibSetup() -&gt; ()"
+                  moduleName = "ThisYear"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/amurad/Desktop/ThisYear/ThisYear/ProgressWidget/ProgressWidget.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "60"
+                  endingLineNumber = "60"
+                  offsetFromSymbolStart = "3360">
+               </Location>
+               <Location
+                  uuid = "25784453-02EF-4057-AA6A-9879A0C78524 - f19f18f599708cd8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ThisYear.ProgressWidget.nibSetup() -&gt; ()"
+                  moduleName = "ThisYear"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/amurad/Desktop/ThisYear/ThisYear/ProgressWidget/ProgressWidget.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "60"
+                  endingLineNumber = "60"
+                  offsetFromSymbolStart = "2436">
+               </Location>
+               <Location
+                  uuid = "25784453-02EF-4057-AA6A-9879A0C78524 - f19f18f599708cd8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ThisYear.ProgressWidget.nibSetup() -&gt; ()"
+                  moduleName = "ThisYear"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/amurad/Desktop/ThisYear/ThisYear/ProgressWidget/ProgressWidget.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "60"
+                  endingLineNumber = "60"
+                  offsetFromSymbolStart = "2204">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C9951D65-1B1E-4184-91B4-4243F84D489B"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ThisYear/ProgressWidget/ProgressWidget.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "14"
+            endingLineNumber = "14"
+            landmarkName = "subtitle"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B544D902-FAA1-4807-9EDD-630DC3A4B317"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ThisYear/ProgressWidget/ProgressWidget.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "27"
+            endingLineNumber = "27"
+            landmarkName = "ProgressWidget"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
