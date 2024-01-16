@@ -16,5 +16,13 @@ extension Date {
             
             return dateFormatter.string(from: self)
         }
+    func toLongString2() -> String {
+            let dateFormatter = DateFormatter()
+            dateFormatter.dateFormat = "yyyy/MM/dd hh:mm:ss a"
+            dateFormatter.amSymbol = "AM"
+            dateFormatter.pmSymbol = "PM"
+            
+            return dateFormatter.string(from: self)
+        }
     
 }

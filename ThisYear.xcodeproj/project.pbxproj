@@ -19,10 +19,50 @@
 		5F1D8B582B569858006B2312 /* AdjustableContraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F1D8B572B569858006B2312 /* AdjustableContraints.swift */; };
 		5F1D8B612B56A484006B2312 /* LKAWaveCircleProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F1D8B602B56A484006B2312 /* LKAWaveCircleProgressBar.swift */; };
 		5F1D8B632B56A4CA006B2312 /* WaveLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F1D8B622B56A4CA006B2312 /* WaveLayer.swift */; };
+		FA2F779C2B56F1D2000DE9F4 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA2F779B2B56F1D2000DE9F4 /* WidgetKit.framework */; };
+		FA2F779E2B56F1D2000DE9F4 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA2F779D2B56F1D2000DE9F4 /* SwiftUI.framework */; };
+		FA2F77A12B56F1D2000DE9F4 /* HourWidgetBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2F77A02B56F1D2000DE9F4 /* HourWidgetBundle.swift */; };
+		FA2F77A52B56F1D2000DE9F4 /* HourWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2F77A42B56F1D2000DE9F4 /* HourWidget.swift */; };
+		FA2F77A72B56F1D2000DE9F4 /* AppIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2F77A62B56F1D2000DE9F4 /* AppIntent.swift */; };
+		FA2F77A92B56F1D4000DE9F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA2F77A82B56F1D4000DE9F4 /* Assets.xcassets */; };
+		FA2F77AD2B56F1D4000DE9F4 /* HourWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = FA2F77992B56F1D2000DE9F4 /* HourWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		FA2F77B22B56F2B7000DE9F4 /* ProgressWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F1D8B502B566CE9006B2312 /* ProgressWidget.swift */; };
+		FA2F77B32B56F2D4000DE9F4 /* LKAWaveCircleProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F1D8B602B56A484006B2312 /* LKAWaveCircleProgressBar.swift */; };
+		FA2F77B42B56F2D7000DE9F4 /* WaveLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F1D8B622B56A4CA006B2312 /* WaveLayer.swift */; };
+		FA2F77B62B56F31A000DE9F4 /* ProgressWidgetWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2F77B52B56F31A000DE9F4 /* ProgressWidgetWrapper.swift */; };
+		FA2F77B72B56F31A000DE9F4 /* ProgressWidgetWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2F77B52B56F31A000DE9F4 /* ProgressWidgetWrapper.swift */; };
+		FA2F77B82B56F33E000DE9F4 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F1D8B552B567E20006B2312 /* UIView.swift */; };
+		FA2F77BA2B56F611000DE9F4 /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2F77B92B56F611000DE9F4 /* Util.swift */; };
+		FA2F77BB2B56F611000DE9F4 /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2F77B92B56F611000DE9F4 /* Util.swift */; };
+		FA2F77BC2B5704B1000DE9F4 /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F1D8B532B567057006B2312 /* Date.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		FA2F77AB2B56F1D4000DE9F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5F1D8B2B2B566A14006B2312 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA2F77982B56F1D2000DE9F4;
+			remoteInfo = HourWidgetExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FA2F77AE2B56F1D5000DE9F4 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				FA2F77AD2B56F1D4000DE9F4 /* HourWidgetExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
-		5F1D8B332B566A14006B2312 /* ThisYear.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThisYear.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F1D8B332B566A14006B2312 /* TimePercent.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TimePercent.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F1D8B362B566A14006B2312 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5F1D8B382B566A14006B2312 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		5F1D8B3A2B566A14006B2312 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -36,6 +76,16 @@
 		5F1D8B572B569858006B2312 /* AdjustableContraints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdjustableContraints.swift; sourceTree = "<group>"; };
 		5F1D8B602B56A484006B2312 /* LKAWaveCircleProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LKAWaveCircleProgressBar.swift; sourceTree = "<group>"; };
 		5F1D8B622B56A4CA006B2312 /* WaveLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaveLayer.swift; sourceTree = "<group>"; };
+		FA2F77992B56F1D2000DE9F4 /* HourWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = HourWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA2F779B2B56F1D2000DE9F4 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		FA2F779D2B56F1D2000DE9F4 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		FA2F77A02B56F1D2000DE9F4 /* HourWidgetBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HourWidgetBundle.swift; sourceTree = "<group>"; };
+		FA2F77A42B56F1D2000DE9F4 /* HourWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HourWidget.swift; sourceTree = "<group>"; };
+		FA2F77A62B56F1D2000DE9F4 /* AppIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppIntent.swift; sourceTree = "<group>"; };
+		FA2F77A82B56F1D4000DE9F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FA2F77AA2B56F1D4000DE9F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA2F77B52B56F31A000DE9F4 /* ProgressWidgetWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressWidgetWrapper.swift; sourceTree = "<group>"; };
+		FA2F77B92B56F611000DE9F4 /* Util.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Util.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +96,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FA2F77962B56F1D2000DE9F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA2F779E2B56F1D2000DE9F4 /* SwiftUI.framework in Frameworks */,
+				FA2F779C2B56F1D2000DE9F4 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -53,6 +112,8 @@
 			isa = PBXGroup;
 			children = (
 				5F1D8B352B566A14006B2312 /* ThisYear */,
+				FA2F779F2B56F1D2000DE9F4 /* HourWidget */,
+				FA2F779A2B56F1D2000DE9F4 /* Frameworks */,
 				5F1D8B342B566A14006B2312 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -60,7 +121,8 @@
 		5F1D8B342B566A14006B2312 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5F1D8B332B566A14006B2312 /* ThisYear.app */,
+				5F1D8B332B566A14006B2312 /* TimePercent.app */,
+				FA2F77992B56F1D2000DE9F4 /* HourWidgetExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -73,6 +135,7 @@
 				5F1D8B362B566A14006B2312 /* AppDelegate.swift */,
 				5F1D8B382B566A14006B2312 /* SceneDelegate.swift */,
 				5F1D8B3A2B566A14006B2312 /* ViewController.swift */,
+				FA2F77B92B56F611000DE9F4 /* Util.swift */,
 				5F1D8B3C2B566A14006B2312 /* Main.storyboard */,
 				5F1D8B3F2B566A16006B2312 /* Assets.xcassets */,
 				5F1D8B412B566A16006B2312 /* LaunchScreen.storyboard */,
@@ -94,6 +157,7 @@
 			isa = PBXGroup;
 			children = (
 				5F1D8B502B566CE9006B2312 /* ProgressWidget.swift */,
+				FA2F77B52B56F31A000DE9F4 /* ProgressWidgetWrapper.swift */,
 			);
 			path = ProgressWidget;
 			sourceTree = "<group>";
@@ -117,25 +181,65 @@
 			path = LKAWaveCircleProgressBar;
 			sourceTree = "<group>";
 		};
+		FA2F779A2B56F1D2000DE9F4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FA2F779B2B56F1D2000DE9F4 /* WidgetKit.framework */,
+				FA2F779D2B56F1D2000DE9F4 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FA2F779F2B56F1D2000DE9F4 /* HourWidget */ = {
+			isa = PBXGroup;
+			children = (
+				FA2F77A02B56F1D2000DE9F4 /* HourWidgetBundle.swift */,
+				FA2F77A42B56F1D2000DE9F4 /* HourWidget.swift */,
+				FA2F77A62B56F1D2000DE9F4 /* AppIntent.swift */,
+				FA2F77A82B56F1D4000DE9F4 /* Assets.xcassets */,
+				FA2F77AA2B56F1D4000DE9F4 /* Info.plist */,
+			);
+			path = HourWidget;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5F1D8B322B566A14006B2312 /* ThisYear */ = {
+		5F1D8B322B566A14006B2312 /* TimePercent */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5F1D8B472B566A16006B2312 /* Build configuration list for PBXNativeTarget "ThisYear" */;
+			buildConfigurationList = 5F1D8B472B566A16006B2312 /* Build configuration list for PBXNativeTarget "TimePercent" */;
 			buildPhases = (
 				5F1D8B2F2B566A14006B2312 /* Sources */,
 				5F1D8B302B566A14006B2312 /* Frameworks */,
 				5F1D8B312B566A14006B2312 /* Resources */,
+				FA2F77AE2B56F1D5000DE9F4 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA2F77AC2B56F1D4000DE9F4 /* PBXTargetDependency */,
+			);
+			name = TimePercent;
+			productName = ThisYear;
+			productReference = 5F1D8B332B566A14006B2312 /* TimePercent.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FA2F77982B56F1D2000DE9F4 /* HourWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA2F77B12B56F1D5000DE9F4 /* Build configuration list for PBXNativeTarget "HourWidgetExtension" */;
+			buildPhases = (
+				FA2F77952B56F1D2000DE9F4 /* Sources */,
+				FA2F77962B56F1D2000DE9F4 /* Frameworks */,
+				FA2F77972B56F1D2000DE9F4 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = ThisYear;
-			productName = ThisYear;
-			productReference = 5F1D8B332B566A14006B2312 /* ThisYear.app */;
-			productType = "com.apple.product-type.application";
+			name = HourWidgetExtension;
+			productName = HourWidgetExtension;
+			productReference = FA2F77992B56F1D2000DE9F4 /* HourWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -149,6 +253,9 @@
 				TargetAttributes = {
 					5F1D8B322B566A14006B2312 = {
 						CreatedOnToolsVersion = 15.0;
+					};
+					FA2F77982B56F1D2000DE9F4 = {
+						CreatedOnToolsVersion = 15.0.1;
 					};
 				};
 			};
@@ -165,7 +272,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5F1D8B322B566A14006B2312 /* ThisYear */,
+				5F1D8B322B566A14006B2312 /* TimePercent */,
+				FA2F77982B56F1D2000DE9F4 /* HourWidgetExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -181,6 +289,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FA2F77972B56F1D2000DE9F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA2F77A92B56F1D4000DE9F4 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -188,6 +304,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA2F77BA2B56F611000DE9F4 /* Util.swift in Sources */,
+				FA2F77B62B56F31A000DE9F4 /* ProgressWidgetWrapper.swift in Sources */,
 				5F1D8B3B2B566A14006B2312 /* ViewController.swift in Sources */,
 				5F1D8B612B56A484006B2312 /* LKAWaveCircleProgressBar.swift in Sources */,
 				5F1D8B582B569858006B2312 /* AdjustableContraints.swift in Sources */,
@@ -200,7 +318,32 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FA2F77952B56F1D2000DE9F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA2F77B72B56F31A000DE9F4 /* ProgressWidgetWrapper.swift in Sources */,
+				FA2F77BC2B5704B1000DE9F4 /* Date.swift in Sources */,
+				FA2F77BB2B56F611000DE9F4 /* Util.swift in Sources */,
+				FA2F77B32B56F2D4000DE9F4 /* LKAWaveCircleProgressBar.swift in Sources */,
+				FA2F77B42B56F2D7000DE9F4 /* WaveLayer.swift in Sources */,
+				FA2F77B22B56F2B7000DE9F4 /* ProgressWidget.swift in Sources */,
+				FA2F77A72B56F1D2000DE9F4 /* AppIntent.swift in Sources */,
+				FA2F77A12B56F1D2000DE9F4 /* HourWidgetBundle.swift in Sources */,
+				FA2F77B82B56F33E000DE9F4 /* UIView.swift in Sources */,
+				FA2F77A52B56F1D2000DE9F4 /* HourWidget.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FA2F77AC2B56F1D4000DE9F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA2F77982B56F1D2000DE9F4 /* HourWidgetExtension */;
+			targetProxy = FA2F77AB2B56F1D4000DE9F4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		5F1D8B3C2B566A14006B2312 /* Main.storyboard */ = {
@@ -344,6 +487,7 @@
 		5F1D8B482B566A16006B2312 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -372,6 +516,7 @@
 		5F1D8B492B566A16006B2312 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -397,6 +542,60 @@
 			};
 			name = Release;
 		};
+		FA2F77AF2B56F1D5000DE9F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4DX4B9R4U3;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HourWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = HourWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.ThisYear.HourWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FA2F77B02B56F1D5000DE9F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4DX4B9R4U3;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HourWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = HourWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.ThisYear.HourWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -409,11 +608,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5F1D8B472B566A16006B2312 /* Build configuration list for PBXNativeTarget "ThisYear" */ = {
+		5F1D8B472B566A16006B2312 /* Build configuration list for PBXNativeTarget "TimePercent" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5F1D8B482B566A16006B2312 /* Debug */,
 				5F1D8B492B566A16006B2312 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA2F77B12B56F1D5000DE9F4 /* Build configuration list for PBXNativeTarget "HourWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA2F77AF2B56F1D5000DE9F4 /* Debug */,
+				FA2F77B02B56F1D5000DE9F4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
