@@ -14,8 +14,8 @@
             filePath = "ThisYear/ProgressWidget/ProgressWidget.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "84"
-            endingLineNumber = "84"
+            startingLineNumber = "85"
+            endingLineNumber = "85"
             landmarkName = "nibSetup()"
             landmarkType = "7">
             <Locations>
@@ -49,6 +49,21 @@
                   endingLineNumber = "65"
                   offsetFromSymbolStart = "0">
                </Location>
+               <Location
+                  uuid = "C3BECA72-6C62-41B1-8635-AE072C571E8E - adce172e04caffb2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TimePercentClip.ProgressWidget.nibSetup() -&gt; ()"
+                  moduleName = "TimePercentClip"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/amurad/Documents/ThisYear/ThisYear/ProgressWidget/ProgressWidget.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "84"
+                  endingLineNumber = "84"
+                  offsetFromSymbolStart = "2168">
+               </Location>
             </Locations>
          </BreakpointContent>
       </BreakpointProxy>
@@ -62,8 +77,8 @@
             filePath = "ThisYear/ProgressWidget/ProgressWidget.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "85"
-            endingLineNumber = "85"
+            startingLineNumber = "86"
+            endingLineNumber = "86"
             landmarkName = "nibSetup()"
             landmarkType = "7">
             <Locations>
@@ -97,6 +112,21 @@
                   endingLineNumber = "65"
                   offsetFromSymbolStart = "0">
                </Location>
+               <Location
+                  uuid = "AF445841-A7E3-450C-B14B-FDF8274D38DE - adce172e04caff93"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TimePercentClip.ProgressWidget.nibSetup() -&gt; ()"
+                  moduleName = "TimePercentClip"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/amurad/Documents/ThisYear/ThisYear/ProgressWidget/ProgressWidget.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "85"
+                  endingLineNumber = "85"
+                  offsetFromSymbolStart = "2336">
+               </Location>
             </Locations>
          </BreakpointContent>
       </BreakpointProxy>
@@ -110,10 +140,10 @@
             filePath = "ThisYear/ProgressWidget/ProgressWidget.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "86"
-            endingLineNumber = "86"
-            landmarkName = "ProgressWidget"
-            landmarkType = "3">
+            startingLineNumber = "87"
+            endingLineNumber = "87"
+            landmarkName = "nibSetup()"
+            landmarkType = "7">
             <Locations>
                <Location
                   uuid = "E9CA65BF-8152-4E46-AFAB-C3DC6E98C71C - f19f18f599708c16"
@@ -145,6 +175,21 @@
                   endingLineNumber = "66"
                   offsetFromSymbolStart = "2844">
                </Location>
+               <Location
+                  uuid = "E9CA65BF-8152-4E46-AFAB-C3DC6E98C71C - adce172e04cafffc"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TimePercentClip.ProgressWidget.nibSetup() -&gt; ()"
+                  moduleName = "TimePercentClip"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/amurad/Documents/ThisYear/ThisYear/ProgressWidget/ProgressWidget.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "86"
+                  endingLineNumber = "86"
+                  offsetFromSymbolStart = "2508">
+               </Location>
             </Locations>
          </BreakpointContent>
       </BreakpointProxy>
@@ -158,8 +203,8 @@
             filePath = "ThisYear/ProgressWidget/ProgressWidget.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "83"
-            endingLineNumber = "83"
+            startingLineNumber = "84"
+            endingLineNumber = "84"
             landmarkName = "nibSetup()"
             landmarkType = "7">
             <Locations>
@@ -208,6 +253,21 @@
                   endingLineNumber = "63"
                   offsetFromSymbolStart = "2652">
                </Location>
+               <Location
+                  uuid = "DE7C470B-D0FC-4652-A714-167E9D4544B4 - adce172e04caff51"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TimePercentClip.ProgressWidget.nibSetup() -&gt; ()"
+                  moduleName = "TimePercentClip"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/amurad/Documents/ThisYear/ThisYear/ProgressWidget/ProgressWidget.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "83"
+                  endingLineNumber = "83"
+                  offsetFromSymbolStart = "2128">
+               </Location>
             </Locations>
          </BreakpointContent>
       </BreakpointProxy>
@@ -221,8 +281,8 @@
             filePath = "ThisYear/ProgressWidget/ProgressWidget.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "80"
-            endingLineNumber = "80"
+            startingLineNumber = "81"
+            endingLineNumber = "81"
             landmarkName = "nibSetup()"
             landmarkType = "7">
             <Locations>
@@ -271,6 +331,21 @@
                   endingLineNumber = "60"
                   offsetFromSymbolStart = "2204">
                </Location>
+               <Location
+                  uuid = "25784453-02EF-4057-AA6A-9879A0C78524 - adce172e04caff36"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TimePercentClip.ProgressWidget.nibSetup() -&gt; ()"
+                  moduleName = "TimePercentClip"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/amurad/Documents/ThisYear/ThisYear/ProgressWidget/ProgressWidget.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "80"
+                  endingLineNumber = "80"
+                  offsetFromSymbolStart = "1892">
+               </Location>
             </Locations>
          </BreakpointContent>
       </BreakpointProxy>
@@ -302,8 +377,8 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "27"
             endingLineNumber = "27"
-            landmarkName = "ProgressWidget"
-            landmarkType = "3">
+            landmarkName = "spacing"
+            landmarkType = "24">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

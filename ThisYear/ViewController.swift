@@ -56,7 +56,6 @@ class ViewController: UIViewController {
     }
     @IBAction func share(_ sender: UIButton) {
        
-
         UIGraphicsBeginImageContextWithOptions(self.view.bounds.size, false, UIScreen.main.scale)
         self.view.layer.render(in: UIGraphicsGetCurrentContext()!)
         guard let screenshot = UIGraphicsGetImageFromCurrentImageContext() else {
@@ -64,9 +63,12 @@ class ViewController: UIViewController {
         }
         UIGraphicsEndImageContext()
 
-        // Share the screenshot
-        let activityViewController = UIActivityViewController(activityItems: [screenshot], applicationActivities: nil)
-        self.present(activityViewController, animated: true, completion: nil)
+        DispatchQueue.main.async {
+            let activityViewController = UIActivityViewController(activityItems: [screenshot], applicationActivities: nil)
+            activityViewController.modalTransitionStyle = .flipHorizontal
+            self.present(activityViewController, animated: true, completion: nil)
+        }
+
 
     }
     

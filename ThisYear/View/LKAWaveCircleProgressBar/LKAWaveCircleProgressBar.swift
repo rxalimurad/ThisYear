@@ -132,7 +132,7 @@ class LKAWaveCircleProgressBar: UIView {
     override func layoutSubviews() {
         super.layoutSubviews()
         let width = bounds.width
-        assert(width == bounds.height, "LKAWaveCircleProgressBar MUST BE SQUARE!")
+       // assert(width == bounds.height, "LKAWaveCircleProgressBar MUST BE SQUARE!")
         lazyContainerLayer.frame = bounds
         lazyContainerLayer.cornerRadius = width / 2.0 + 0.5
         

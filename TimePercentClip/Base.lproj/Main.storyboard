@@ -3,7 +3,6 @@
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22130"/>
-        <capability name="Image references" minToolsVersion="12.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -11,7 +10,7 @@
         <!--Item-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="TimePercent" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="TimePercentClip" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="fPL-3O-Lli"/>
                         <viewControllerLayoutGuide type="bottom" id="hTd-Qd-HSA"/>
@@ -35,7 +34,7 @@
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MQc-Nl-QYB">
                                         <rect key="frame" x="15" y="131.33333333333334" width="363" height="496.33333333333326"/>
                                         <subviews>
-                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="b91-1q-QrY" customClass="ProgressWidget" customModule="TimePercent" customModuleProvider="target">
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="b91-1q-QrY" customClass="ProgressWidget" customModule="TimePercentClip" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="0.0" width="156.66666666666666" height="156.66666666666666"/>
                                                 <color key="backgroundColor" systemColor="systemPinkColor"/>
                                                 <constraints>
@@ -54,7 +53,7 @@
                                                     </userDefinedRuntimeAttribute>
                                                 </userDefinedRuntimeAttributes>
                                             </view>
-                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9j2-nK-kfC" customClass="ProgressWidget" customModule="TimePercent" customModuleProvider="target">
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9j2-nK-kfC" customClass="ProgressWidget" customModule="TimePercentClip" customModuleProvider="target">
                                                 <rect key="frame" x="206.66666666666663" y="108.33333333333333" width="156.33333333333337" height="156.33333333333337"/>
                                                 <color key="backgroundColor" systemColor="systemYellowColor"/>
                                                 <userDefinedRuntimeAttributes>
@@ -70,7 +69,7 @@
                                                     </userDefinedRuntimeAttribute>
                                                 </userDefinedRuntimeAttributes>
                                             </view>
-                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xmN-FB-yCQ" customClass="ProgressWidget" customModule="TimePercent" customModuleProvider="target">
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xmN-FB-yCQ" customClass="ProgressWidget" customModule="TimePercentClip" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="216.66666666666663" width="156.66666666666666" height="156.33333333333337"/>
                                                 <color key="backgroundColor" systemColor="systemGreenColor"/>
                                                 <userDefinedRuntimeAttributes>
@@ -78,7 +77,7 @@
                                                         <real key="value" value="0.0"/>
                                                     </userDefinedRuntimeAttribute>
                                                     <userDefinedRuntimeAttribute type="string" keyPath="subtitle">
-                                                        <string key="value">This Month
+                                                        <string key="value">This Month 
 ($$$$)</string>
                                                     </userDefinedRuntimeAttribute>
                                                     <userDefinedRuntimeAttribute type="number" keyPath="fontSize">
@@ -89,7 +88,7 @@
                                                     </userDefinedRuntimeAttribute>
                                                 </userDefinedRuntimeAttributes>
                                             </view>
-                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aJy-jw-EnU" customClass="ProgressWidget" customModule="TimePercent" customModuleProvider="target">
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aJy-jw-EnU" customClass="ProgressWidget" customModule="TimePercentClip" customModuleProvider="target">
                                                 <rect key="frame" x="206.66666666666663" y="324.66666666666663" width="156.33333333333337" height="156.66666666666663"/>
                                                 <color key="backgroundColor" systemColor="systemGrayColor"/>
                                                 <userDefinedRuntimeAttributes>
@@ -126,39 +125,11 @@
                                             <constraint firstItem="9j2-nK-kfC" firstAttribute="top" secondItem="b91-1q-QrY" secondAttribute="centerY" constant="30" id="yQM-p5-hkn"/>
                                         </constraints>
                                     </view>
-                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="D4X-Xl-6UU">
-                                        <rect key="frame" x="15" y="724.66666666666663" width="363" height="34.333333333333371"/>
-                                        <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2rz-TL-HT5">
-                                                <rect key="frame" x="0.0" y="0.0" width="179" height="34.333333333333336"/>
-                                                <color key="tintColor" systemColor="secondarySystemGroupedBackgroundColor"/>
-                                                <buttonConfiguration key="configuration" style="filled" imagePlacement="trailing" title="Share" imagePadding="10" titleAlignment="leading">
-                                                    <imageReference key="image" image="square.and.arrow.up" catalog="system" symbolScale="small"/>
-                                                </buttonConfiguration>
-                                                <connections>
-                                                    <action selector="share:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Wbf-eW-0Cs"/>
-                                                </connections>
-                                            </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Not-pE-brv">
-                                                <rect key="frame" x="184" y="0.0" width="179" height="34.333333333333336"/>
-                                                <color key="tintColor" systemColor="secondarySystemGroupedBackgroundColor"/>
-                                                <buttonConfiguration key="configuration" style="filled" imagePlacement="trailing" title="Save" imagePadding="10" titleAlignment="leading">
-                                                    <imageReference key="image" image="square.and.arrow.down" catalog="system" symbolScale="small"/>
-                                                </buttonConfiguration>
-                                                <connections>
-                                                    <action selector="save:" destination="BYZ-38-t0r" eventType="touchUpInside" id="XHr-Ej-Y5i"/>
-                                                </connections>
-                                            </button>
-                                        </subviews>
-                                    </stackView>
                                 </subviews>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstItem="nqa-U9-neb" firstAttribute="top" secondItem="N1H-yf-Hv3" secondAttribute="top" id="1Va-tN-n1p"/>
-                                    <constraint firstItem="D4X-Xl-6UU" firstAttribute="leading" secondItem="N1H-yf-Hv3" secondAttribute="leading" constant="15" id="682-pC-2Hf"/>
                                     <constraint firstItem="MQc-Nl-QYB" firstAttribute="top" secondItem="nqa-U9-neb" secondAttribute="bottom" id="Bb0-Eb-EB6"/>
-                                    <constraint firstAttribute="trailing" secondItem="D4X-Xl-6UU" secondAttribute="trailing" constant="15" id="CJb-Zf-fJE"/>
-                                    <constraint firstAttribute="bottom" secondItem="D4X-Xl-6UU" secondAttribute="bottom" id="M7Q-Ba-ip8"/>
                                     <constraint firstAttribute="trailing" secondItem="MQc-Nl-QYB" secondAttribute="trailing" constant="15" id="RHb-db-5gG"/>
                                     <constraint firstItem="MQc-Nl-QYB" firstAttribute="leading" secondItem="N1H-yf-Hv3" secondAttribute="leading" constant="15" id="cKT-O0-18C"/>
                                     <constraint firstItem="MQc-Nl-QYB" firstAttribute="centerY" secondItem="N1H-yf-Hv3" secondAttribute="centerY" id="h9q-Lw-p7v"/>
@@ -196,11 +167,6 @@
     </scenes>
     <resources>
         <image name="bg" width="827" height="1255"/>
-        <image name="square.and.arrow.down" catalog="system" width="112" height="128"/>
-        <image name="square.and.arrow.up" catalog="system" width="108" height="128"/>
-        <systemColor name="secondarySystemGroupedBackgroundColor">
-            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

@@ -60,6 +60,7 @@ class ProgressWidget: UIView {
         titleLabel.textColor = .white
         titleLabel.font = UIFont.systemFont(ofSize: fontSize, weight: .bold)
         titleLabel.textAlignment = .center
+        titleLabel.numberOfLines = 0
 
         percentageLabel.backgroundColor = .clear
         percentageLabel.textColor = .white
